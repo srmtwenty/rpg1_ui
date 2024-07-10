@@ -1,0 +1,50 @@
+
+  table, td, th{
+    border:0.4px solid;
+  }
+    /* make the table a 100% wide by default */
+    table {
+      border-collapse: collapse;
+      width:50%;
+      margin: 0 auto;
+      background-color: rgb(212, 255, 255);
+    }
+  
+  th {
+    border-bottom: 1px solid black;
+    
+  }
+  
+  
+  
+  thead tr{
+    background-color:gray;
+    color:white;
+  
+  }
+  tbody tr{
+    border-bottom: 1px solid black;
+  }
+  tbody tr:nth-of-type(even){
+    background-color:white;
+  }
+  tbody tr:last-of-type{
+    border-bottom: 2px solid green;
+  }
+
+  .row{
+    background-color:white;
+    width:90%;
+    margin:auto;
+    text-align:left;
+    padding:1em 1em 0em 1em;
+    
+  }
+  .labelPost{
+    font-weight:bold;
+    width:50%;
+    max-width:10em;
+    min-width:6em;
+    display:inline-block;
+    
+  }
